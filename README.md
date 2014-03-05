@@ -13,12 +13,12 @@ Smarty2.6支持模版继承
 
 特性
 -------------
->1.支持多继承.
->2.支持block的嵌套
->3.block中支持name=xx.after name=xx.before来更改父模版(主要是因为自己没实现类似于super方法，对父模版重用)
->4.支持重写某个block后再创建block嵌套
+>+1.支持多继承.
+>+2.支持block的嵌套
+>+3.block中支持name=xx.after name=xx.before来更改父模版(主要是因为自己没实现类似于super方法，对父模版重用)
+>+4.支持重写某个block后再创建block嵌套
 
 两点说明
 -------------
->1.block标签独占一行
->2.子模版中非block标签内的内容会被忽略
+>+1.block标签独占一行
+>+2.子模版中非block标签内的内容会被忽略
